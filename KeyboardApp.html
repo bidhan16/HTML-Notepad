@@ -1,0 +1,478 @@
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body id="body">
+
+    <!-- Input Text Area -->
+    <div class="input-area">
+
+        <div class="input-action">
+        </div>
+
+        <span class="write-space" id="write" contenteditable="true"></span>
+
+    </div>
+
+    <!-- Keyboard -->
+    <div class="Keyboard">
+
+        <!-- row one -->
+        <div class="row one" id="oneid">
+
+            <button type="submit" class="button" id="1">1</button>
+
+            <button type="submit" class="button" id="2">2</button>
+    
+            <button type="submit" class="button" id="3">3</button>
+    
+            <button type="submit" class="button" id="4">4</button>
+    
+            <button type="submit" class="button" id="5">5</button>
+    
+            <button type="submit" class="button" id="6">6</button>
+    
+            <button type="submit" class="button" id="7">7</button>
+    
+            <button type="submit" class="button" id="8">8</button>
+    
+            <button type="submit" class="button" id="9">9</button>
+    
+            <button type="submit" class="button" id="0">0</button>
+            
+        </div>
+
+        <!-- row char -->
+        <div class="row ones" id="chardid">
+
+            <button type="submit" class="char" id="ch1">`<br/>~</button>
+
+            <button type="submit" class="char" id="ch2">!<br/>&Alpha;</button>
+
+            <button type="submit" class="char" id="ch3">@<br/>&Beta;</button>
+
+            <button type="submit" class="char" id="ch4">#<br/>&Gamma;</button>
+
+            <button type="submit" class="char" id="ch5">$<br/>&Delta;</button>
+
+            <button type="submit" class="char" id="ch6">%<br/>&Epsilon;</button>
+
+            <button type="submit" class="char" id="ch7">^<br/>&Zeta;</button>
+
+            <button type="submit" class="char" id="ch8">&amp;</button>
+
+            <button type="submit" class="char" id="ch9">*</button>
+
+            <button type="submit" class="char" id="ch10">(<br/>|</button>
+
+            <button type="submit" class="char" id="ch11">)<br/>\</button>
+
+            <button type="submit" class="char" id="ch12">-<br/>_</button>
+
+            <button type="submit" class="char" id="ch13">=<br/>+</button>
+
+            <button type="submit" class="char" id="ch14">[<br/>{</button>
+
+            <button type="submit" class="char" id="ch15">]<br/>}</button>
+
+            <button type="submit" class="char" id="ch16">;<br/>:</button>
+
+            <button type="submit" class="char" id="ch17">'<br/>"</button>
+
+            <button type="submit" class="char" id="ch18">,<br/>&lt;</button>
+
+            <button type="submit" class="char" id="ch19">.<br/>&gt;</button>
+
+            <button type="submit" class="char" id="ch20">/<br/>?</button>
+                
+        </div>
+
+        <!-- row two -->
+        <div class="row two">
+
+                <button type="submit" class="button" id="q">Q</button>
+
+                <button type="submit" class="button" id="w">W</button>
+    
+                <button type="submit" class="button" id="e">E</button>
+    
+                <button type="submit" class="button" id="r">R</button>
+    
+                <button type="submit" class="button" id="t">T</button>
+    
+                <button type="submit" class="button" id="y">Y</button>
+    
+                <button type="submit" class="button" id="u">U</button>
+    
+                <button type="submit" class="button" id="i">I</button>
+    
+                <button type="submit" class="button" id="o">O</button>
+    
+                <button type="submit" class="button" id="p">P</button>
+
+        </div>
+
+        <!-- row three -->
+        <div class="row three">
+
+                <button type="submit" class="button" id="a">A</button>
+
+                <button type="submit" class="button" id="s">S</button>
+    
+                <button type="submit" class="button" id="d">D</button>
+    
+                <button type="submit" class="button" id="f">F</button>
+    
+                <button type="submit" class="button" id="g">G</button>
+    
+                <button type="submit" class="button" id="h">H</button>
+    
+                <button type="submit" class="button" id="j">J</button>
+    
+                <button type="submit" class="button" id="k">K</button>
+    
+                <button type="submit" class="button" id="l">L</button>
+
+                <button type="submit" class="button" id="enter">Enter</button>
+
+        </div>
+
+        <!-- row four -->
+        <div class="row four">
+
+                <button type="submit" class="button" id="z">Z</button>
+
+                <button type="submit" class="button" id="x">X</button>
+    
+                <button type="submit" class="button" id="c">C</button>
+    
+                <button type="submit" class="button" id="v">V</button>
+    
+                <button type="submit" class="button" id="b">B</button>
+    
+                <button type="submit" class="button" id="n">N</button>
+    
+                <button type="submit" class="button" id="m">M</button>
+    
+                <button type="submit" class="button" id="alt">Alt</button>
+    
+                <button type="submit" class="button" id="shift">Shift</button>
+    
+                <button type="submit" class="button" id="ctrl">Ctrl</button>
+
+        </div>
+
+        <div class="row five">
+
+            <button type="submit" class="button" id="special">Char</button>
+
+            <button type="submit" class="spacebutton" id="space">
+                Space
+            </button>
+
+            <button type="submit" class="backspacebutton" id="backspace">Backspace</button>
+        </div>
+
+    </div>
+
+</body>
+
+<style>
+#body{
+        margin: 0;
+        background-color: white;
+    }
+
+    .input-area{ /* input-area */
+        background-color: white;
+        float: left;
+        width: 100%;
+        height: 60%;
+    }
+            .input-action{
+                float: left;
+                width: 90%; height: 10%;
+                padding-left: 5%; padding-right: 5%;
+                background-color: #eeeeee;
+            }
+
+            .write-space{
+                float: left;
+                width: 90%; height: 80%;
+                padding-left: 5%; padding-right: 5%;
+                margin-top: 1.5%;
+                background-color: white;
+                z-index: 100;
+                overflow-y: auto;
+                outline: none;
+                font-size: 16px;
+                font-family: 'Montserrat', sans-serif; 
+            }
+           
+
+    .keyboard{ /* keyboard */
+        float: left;
+        width: 100%;
+        height: 40%;
+        border-top: 0.5px solid #ddd;
+    }
+
+            .row{/* row */
+                float: left;
+                width: 100%; height: 20%;
+            }
+            .one{
+                display: block;
+            }
+            .ones{
+                display: none;
+            }
+               
+               .button{
+                   float: left;
+                   width: 10%; height: 100%;
+                   font-size: 20px;
+                   font-family: 'Montserrat', sans-serif;
+                   background-color: white;
+                   border: none;
+                   outline: none;
+                   border-radius: 1px;
+               }
+                    .button:hover{
+                        background-color: #000000da;
+                        color: white;
+                        font-size: 25px;
+                    }
+
+                .char{
+                    float: left;
+                    width: 5%; height: 100%;
+                    font-size: 15px;
+                    font-family: 'Montserrat', sans-serif;
+                    background-color: white;
+                    border: none;
+                    outline: none;
+                    border-radius: 1px;
+                }
+                .char:hover{
+                    background-color: #000000da;
+                    color: white;
+                    font-size: 15px;
+                }
+               .spacebutton{
+                   float: left;
+                   width: 70%; height: 100%;
+                   font-size: 20px;
+                   font-family: 'Montserrat', sans-serif;
+                   background-color: white;
+                   border: none;
+                   outline: none;
+               }
+                    .spacebutton:hover{
+                        background-color: #000000b4;
+                        color: white;
+                        font-size: 25px;
+                    }
+               .backspacebutton{
+                   float: left;
+                   width: 20%; height: 100%;
+                   font-size: 20px;
+                   font-family: 'Montserrat', sans-serif;
+                   background-color: white;
+                   border: none;
+                   outline: none;
+                   border-radius: 1px 0 0 1px;
+               }
+                    .backspacebutton:hover{
+                        background-color: #000000b4;
+                        color: white;
+                        font-size: 25px;
+                    }
+
+</style>
+
+<script>
+
+    $(document).ready(function(){
+        $("#a").click(function(){
+            $("#write").append("a");
+        });
+
+        $("#b").click(function(){
+            $("#write").append("b");
+        });
+
+        $("#c").click(function(){
+            $("#write").append("c");
+        });
+
+        $("#d").click(function(){
+            $("#write").append("d");
+        });
+
+        $("#e").click(function(){
+            $("#write").append("e");
+        });
+
+        $("#f").click(function(){
+            $("#write").append("f");
+        });
+
+        $("#g").click(function(){
+            $("#write").append("g");
+        });
+
+        $("#h").click(function(){
+            $("#write").append("h");
+        });
+
+        $("#i").click(function(){
+            $("#write").append("i");
+        });
+
+        $("#j").click(function(){
+            $("#write").append("j");
+        });
+
+        $("#k").click(function(){
+            $("#write").append("k");
+        });
+
+        $("#l").click(function(){
+            $("#write").append("l");
+        });
+
+        $("#m").click(function(){
+            $("#write").append("m");
+        });
+
+        $("#n").click(function(){
+            $("#write").append("n");
+        });
+
+        $("#o").click(function(){
+            $("#write").append("o");
+        });
+
+        $("#p").click(function(){
+            $("#write").append("p");
+        });
+
+        $("#q").click(function(){
+            $("#write").append("q");
+        });
+
+        $("#r").click(function(){
+            $("#write").append("r");
+        });
+
+        $("#s").click(function(){
+            $("#write").append("s");
+        });
+
+        $("#t").click(function(){
+            $("#write").append("t");
+        });
+
+        $("#u").click(function(){
+            $("#write").append("u");
+        });
+
+        $("#v").click(function(){
+            $("#write").append("v");
+        });
+
+        $("#w").click(function(){
+            $("#write").append("w");
+        });
+
+        $("#x").click(function(){
+            $("#write").append("x");
+        });
+
+        $("#y").click(function(){
+            $("#write").append("y");
+        });
+
+        $("#z").click(function(){
+            $("#write").append("z");
+        });
+
+        $("#1").click(function(){
+            $("#write").append("1");
+        });
+
+        $("#2").click(function(){
+            $("#write").append("2");
+        });
+
+        $("#3").click(function(){
+            $("#write").append("3");
+        });
+
+        $("#4").click(function(){
+            $("#write").append("4");
+        });
+
+        $("#5").click(function(){
+            $("#write").append("5");
+        });
+
+        $("#6").click(function(){
+            $("#write").append("6");
+        });
+
+        $("#7").click(function(){
+            $("#write").append("7");
+        });
+
+        $("#8").click(function(){
+            $("#write").append("8");
+        });
+
+        $("#9").click(function(){
+            $("#write").append("9");
+        });
+
+        $("#0").click(function(){
+            $("#write").append("0");
+        });
+
+        $("#enter").click(function(){
+            $("#write").append("<br/>");
+        });
+
+        $("#space").click(function(){
+            $("#write").append(" ");
+        });
+
+        $("#backspace").click(function(){
+            $("#write").empty();
+        });
+
+    })
+
+</script>
+
+<script>
+var num = document.getElementById("oneid")
+var char = document.getElementById("chardid")
+var btn = document.getElementById("special")
+
+btn.onclick = function(){
+    num.style.display = "none";
+    char.style.display = "block";
+}
+
+btn.ondblclick = function(){
+    num.style.display = "block";
+    char.style.display = "none";
+}
+</script>
